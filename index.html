@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Andaaz Kitchen | Pure Veg Restaurant</title>
+<title>Ram Ji Veg Food | Pure Veg Restaurant | Bareilly</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <style>
 :root {
@@ -132,7 +132,7 @@ footer span{color:var(--gold);}
 <body>
 
 <nav>
-  <div class="logo">Andaaz <span>Kitchen</span></div>
+  <div class="logo">Ram Ji <span>Veg Food</span></div>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#menu">Menu</a></li>
@@ -147,7 +147,7 @@ footer span{color:var(--gold);}
   <div class="hero-pattern"></div>
   <div class="hero-content">
     <div class="hero-badge">100% Pure Vegetarian</div>
-    <h1>Experience the <em>Andaaz</em> of Fine Dining</h1>
+    <h1>Experience the <em>Taste</em> of Ram Ji Veg Food</h1>
     <p class="hero-sub">Where every dish tells a story of tradition, flavor, and love — crafted with the finest ingredients.</p>
     <p class="hero-hindi">स्वाद जो दिल को छू जाए</p>
     <div class="hero-btns">
@@ -170,7 +170,7 @@ footer span{color:var(--gold);}
   </div>
   <div class="about-grid">
     <div class="about-text">
-      <p>Welcome to <span>Andaaz Kitchen</span> — where we believe that pure vegetarian food can be an extraordinary culinary journey.</p>
+      <p>Welcome to <span>Ram Ji Veg Food</span> — where we believe that pure vegetarian food can be an extraordinary culinary journey.</p>
       <p>Every dish is prepared with <span>fresh ingredients</span>, traditional recipes, and a whole lot of love. From street-style chaat to royal curries — we have it all.</p>
       <p class="about-hindi">"हमारा खाना सिर्फ पेट नहीं, दिल भी भरता है"</p>
       <div class="about-features">
@@ -199,8 +199,7 @@ footer span{color:var(--gold);}
     <button class="tab-btn active" onclick="filterMenu('all')">All</button>
     <button class="tab-btn" onclick="filterMenu('starter')">Starters</button>
     <button class="tab-btn" onclick="filterMenu('main')">Main Course</button>
-    <button class="tab-btn" onclick="filterMenu('bread')">Breads</button>
-    <button class="tab-btn" onclick="filterMenu('dessert')">Desserts</button>
+    <button class="tab-btn" onclick="filterMenu('drinks')">Chai & Drinks</button>
   </div>
   <div class="menu-grid" id="menu-grid">
     <div class="menu-card menu-item active" data-cat="starter">
@@ -214,6 +213,42 @@ footer span{color:var(--gold);}
       <div class="menu-name">Paneer Tikka</div>
       <div class="menu-desc">Marinated cottage cheese grilled to perfection with spices</div>
       <div class="menu-footer"><span class="menu-price">₹220</span><span class="veg-badge">VEG</span></div>
+    </div>
+    <div class="menu-card menu-item active" data-cat="starter">
+      <div class="menu-emoji">🥟</div>
+      <div class="menu-name">Samose</div>
+      <div class="menu-desc">Crispy fried pastry filled with spiced potatoes and peas</div>
+      <div class="menu-footer"><span class="menu-price">₹20</span><span class="veg-badge">VEG</span></div>
+    </div>
+    <div class="menu-card menu-item active" data-cat="starter">
+      <div class="menu-emoji">🫘</div>
+      <div class="menu-name">Chole</div>
+      <div class="menu-desc">Spicy chickpea curry cooked with aromatic Indian spices</div>
+      <div class="menu-footer"><span class="menu-price">₹80</span><span class="veg-badge">VEG</span></div>
+    </div>
+    <div class="menu-card menu-item active" data-cat="main">
+      <div class="menu-emoji">🍛</div>
+      <div class="menu-name">Dal</div>
+      <div class="menu-desc">Slow-cooked lentils tempered with cumin and spices</div>
+      <div class="menu-footer"><span class="menu-price">₹60</span><span class="veg-badge">VEG</span></div>
+    </div>
+    <div class="menu-card menu-item active" data-cat="main">
+      <div class="menu-emoji">🥬</div>
+      <div class="menu-name">Mix Veg</div>
+      <div class="menu-desc">Fresh seasonal vegetables cooked in rich Indian gravy</div>
+      <div class="menu-footer"><span class="menu-price">₹80</span><span class="veg-badge">VEG</span></div>
+    </div>
+    <div class="menu-card menu-item active" data-cat="main">
+      <div class="menu-emoji">🍚</div>
+      <div class="menu-name">Rice</div>
+      <div class="menu-desc">Steamed basmati rice — perfect with any curry</div>
+      <div class="menu-footer"><span class="menu-price">₹40</span><span class="veg-badge">VEG</span></div>
+    </div>
+    <div class="menu-card menu-item active" data-cat="main">
+      <div class="menu-emoji">🍲</div>
+      <div class="menu-name">Kadi</div>
+      <div class="menu-desc">Yogurt-based curry with pakoras in turmeric gravy</div>
+      <div class="menu-footer"><span class="menu-price">₹70</span><span class="veg-badge">VEG</span></div>
     </div>
     <div class="menu-card menu-item active" data-cat="main">
       <div class="menu-emoji">🍛</div>
@@ -246,8 +281,11 @@ footer span{color:var(--gold);}
       <div class="menu-footer"><span class="menu-price">₹90</span><span class="veg-badge">VEG</span></div>
     </div>
     <div class="menu-card menu-item active" data-cat="dessert">
-      <div class="menu-emoji">🍮</div>
-      <div class="menu-name">Gulab Jamun</div>
+      <div class="menu-emoji">☕</div>
+      <div class="menu-name">Chai</div>
+      <div class="menu-desc">Hot masala chai made with ginger, cardamom and milk</div>
+      <div class="menu-footer"><span class="menu-price">₹15</span><span class="veg-badge">VEG</span></div>
+    </div>
       <div class="menu-desc">Soft milk-solid dumplings soaked in rose-flavored sugar syrup</div>
       <div class="menu-footer"><span class="menu-price">₹80</span><span class="veg-badge">VEG</span></div>
     </div>
@@ -283,12 +321,19 @@ footer span{color:var(--gold);}
   </div>
   <div class="contact-grid">
     <div class="contact-info">
-      <h3>Andaaz Kitchen</h3>
+      <h3>Ram Ji Veg Food</h3>
       <div class="contact-item">
         <div class="contact-icon">👨‍🍳</div>
         <div>
           <div class="contact-label">Owner</div>
           <div class="contact-value">Mr. Mahendra Pal</div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">👨‍💼</div>
+        <div>
+          <div class="contact-label">Manager</div>
+          <div class="contact-value">Mr. Banwari Lal<br/>📞 +91 97589 78116</div>
         </div>
       </div>
       <div class="contact-item">
@@ -334,7 +379,7 @@ footer span{color:var(--gold);}
 </section>
 
 <footer>
-  <p>© 2026 <span>Andaaz Kitchen</span> — Made with ❤️ | 100% Pure Vegetarian</p>
+  <p>© 2026 <span>Ram Ji Veg Food</span> — Made with ❤️ | 100% Pure Vegetarian</p>
   <p style="margin-top:8px;font-size:11px;">स्वाद जो दिल को छू जाए</p>
 </footer>
 
